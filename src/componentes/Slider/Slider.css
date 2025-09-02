@@ -1,5 +1,6 @@
 .slide__item {
-  height: 350px;
+  height: 270px;
+  border: 4px solid tomato;
 }
 
 .slide__img {
