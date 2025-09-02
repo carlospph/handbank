@@ -1,0 +1,36 @@
+.headerGov {
+  background: rgb(16, 16, 69);
+  padding: 4px 0;
+}
+
+.headerGov a {
+  color: white;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+a.logoGov {
+  font-size: 1.5rem;
+  text-transform: lowercase;
+}
+
+.navbarGov {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  gap: 20px;
+}
+
+.menu__gov {
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0;
+  overflow-x: auto;
+}
+
+.menu__gov li {
+  border-left: 1px solid #cccccc70;
+  padding: 0 18px;
+}
