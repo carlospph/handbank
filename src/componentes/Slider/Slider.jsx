@@ -31,7 +31,7 @@ export const Slider = () => {
       </Carousel.Item>
       <Carousel.Item className="slide__item">
         <img
-          src="/tecnologia__campo.jpg"
+          src="https://raw.githubusercontent.com/carlospph/handbank/refs/heads/main/public/tecnologia___campo.jpg"
           alt="Tecnologia no campo"
           className="slide__img"
         />
