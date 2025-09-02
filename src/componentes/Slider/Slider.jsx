@@ -1,5 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
 import './Slider.css';
+
 export const Slider = () => {
   return (
     <Carousel slide={false}>
@@ -29,10 +30,9 @@ export const Slider = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item className="slide__item">
-        {/* <ExampleCarouselImage text="Third slide" /> */}
         <img
-          src="tecnologia__campo.jpg"
-          alt=""
+          src="/tecnologia__campo.jpg"
+          alt="Tecnologia no campo"
           className="slide__img"
         />
 
