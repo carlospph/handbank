@@ -1,4 +1,5 @@
 import './App.css';
+import { BarNews } from './componentes/BarNews/BarNews';
 import Header from './componentes/Header/Header';
 import { HeaderGov } from './componentes/HeaderGov/HeaderGov';
 import { Slider } from './componentes/Slider/Slider';
@@ -9,6 +10,7 @@ function App() {
       <HeaderGov />
       <Header />
       <Slider />
+      <BarNews/>
     </>
   );
 }

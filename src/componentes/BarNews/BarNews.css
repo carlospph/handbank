@@ -1,0 +1,9 @@
+.barNews{
+    background: green;
+}
+
+.BackgroundGreenDark{
+    /* background-color: rgb(31, 114, 31); */
+    background-image: url("bgData.png");
+    background-repeat: no-repeat;
+}
