@@ -46,13 +46,6 @@ export const Slider = () => {
             </div>
           </div>
         </div>
-
-        {/* <Carousel.Caption>
-          <h3>Trrrrrrrrrr hird slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption> */}
       </Carousel.Item>
     </Carousel>
   );
