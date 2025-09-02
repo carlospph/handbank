@@ -1,6 +1,5 @@
 import Carousel from 'react-bootstrap/Carousel';
 import './Slider.css';
-
 export const Slider = () => {
   return (
     <Carousel slide={false}>
@@ -16,7 +15,6 @@ export const Slider = () => {
           <h4>Ajudando a crescer e desenvolver a Região Norte</h4>
         </Carousel.Caption>
       </Carousel.Item>
-      
       <Carousel.Item className="slide__item">
         {/* <ExampleCarouselImage text="Second slide" /> */}
         <img
@@ -30,23 +28,21 @@ export const Slider = () => {
           <h4>Aonde o rio passa deixa a vida e transforma</h4>
         </Carousel.Caption>
       </Carousel.Item>
-
       <Carousel.Item className="slide__item">
-        {/* <ExampleCarouselImage text="Second slide" /> */}
+        {/* <ExampleCarouselImage text="Third slide" /> */}
         <img
-          src="https://static.vecteezy.com/ti/vetor-gratis/p3/7978774-fundo-verde-fresco-e-natural-com-linhas-curvas-e-circulos-design-para-pagina-de-banner-website-vetor.jpg"
-          alt="Slide tres"
+          src="https://raw.githubusercontent.com/carlospph/handbank/b74f11ca8e029f75e41e53415c1e11bcfedacde0/img.jpg"
+          alt=""
           className="slide__img"
         />
 
         <Carousel.Caption>
-          <h2 className='text-start text-white'>Somos mais do que bank</h2>
-          <h3 className='text-start text-white'>Somo conexão de negócios</h3>
-          <p className="text-white mt-2 text-start">
-            Aqui levamos negócio,promovemos a região e seus projetos!
+          <h3>l</h3>
+          <p>
+            P
           </p>
         </Carousel.Caption>
-      </Carousel.Item> 
+      </Carousel.Item>
     </Carousel>
   );
 };
