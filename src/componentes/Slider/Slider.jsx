@@ -16,6 +16,7 @@ export const Slider = () => {
           <h4>Ajudando a crescer e desenvolver a Região Norte</h4>
         </Carousel.Caption>
       </Carousel.Item>
+      
       <Carousel.Item className="slide__item">
         {/* <ExampleCarouselImage text="Second slide" /> */}
         <img
@@ -29,24 +30,23 @@ export const Slider = () => {
           <h4>Aonde o rio passa deixa a vida e transforma</h4>
         </Carousel.Caption>
       </Carousel.Item>
+
       <Carousel.Item className="slide__item">
-      <div className="bg-success">
-        <div className="d-flex align-items-center container">
-            <div>
-              <h2 className='text-white w-75'>
-                Acreditamos que fomento e tecnologia podem ser iniciados no campo
-              </h2>
-            </div>
-            <div>
-              <img
-                src="https://raw.githubusercontent.com/carlospph/handbank/refs/heads/main/public/tecnologia___campo.jpg"
-                alt="Tecnologia no campo"
-                className="slide__img w-100 h-100"
-              />
-            </div>
-          </div>
-        </div>
-      </Carousel.Item>
+        {/* <ExampleCarouselImage text="Second slide" /> */}
+        <img
+          src="https://static.vecteezy.com/ti/vetor-gratis/p3/7978774-fundo-verde-fresco-e-natural-com-linhas-curvas-e-circulos-design-para-pagina-de-banner-website-vetor.jpg"
+          alt="Slide tres"
+          className="slide__img"
+        />
+
+        <Carousel.Caption>
+          <h2 className='text-start text-white'>Somos mais do que bank</h2>
+          <h3 className='text-start text-white'>Somo conexão de negócios</h3>
+          <p className="text-white mt-2 text-start">
+            Aqui levamos negócio,promovemos a região e seus projetos!
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item> 
     </Carousel>
   );
 };
