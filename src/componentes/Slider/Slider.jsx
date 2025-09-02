@@ -30,18 +30,28 @@ export const Slider = () => {
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item className="slide__item">
+        <div className="d-flex flex-row align-items-center">
+          <div>
+            <h2>
+              Acreditamos que fomento e tecnologia podem ser iniciados no campo
+            </h2>
+          </div>
+
+          <div>
         <img
           src="https://raw.githubusercontent.com/carlospph/handbank/refs/heads/main/public/tecnologia___campo.jpg"
           alt="Tecnologia no campo"
           className="slide__img"
         />
+        </div>
+        </div>
 
-        <Carousel.Caption>
+        {/* <Carousel.Caption>
           <h3>Trrrrrrrrrr hird slide label</h3>
           <p>
             Praesent commodo cursus magna, vel scelerisque nisl consectetur.
           </p>
-        </Carousel.Caption>
+        </Carousel.Caption> */}
       </Carousel.Item>
     </Carousel>
   );
