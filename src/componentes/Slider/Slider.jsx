@@ -31,15 +31,15 @@ export const Slider = () => {
       <Carousel.Item className="slide__item">
         {/* <ExampleCarouselImage text="Third slide" /> */}
         <img
-          src="https://raw.githubusercontent.com/carlospph/handbank/b74f11ca8e029f75e41e53415c1e11bcfedacde0/img.jpg"
+          src="https://as1.ftcdn.net/v2/jpg/05/89/27/80/1000_F_589278019_U9QObiTacPRrqHcwHk2iY5tgToF08Jdf.jpg"
           alt=""
           className="slide__img"
         />
 
-        <Carousel.Caption>
-          <h3>l</h3>
-          <p>
-            P
+        <Carousel.Caption className='container'>
+          <h3 className='text-start'>Nossa missão é conectar</h3>
+          <p className='text-start'>
+            Negócios, pessoas, objetivos e sonhos!
           </p>
         </Carousel.Caption>
       </Carousel.Item>

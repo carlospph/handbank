@@ -11,12 +11,12 @@ export const BarNews = () => {
 
     return (
 
-            <div className="BackgroundGreenDark py-2">
+            <div className="wrapper p-0">
                 <div className="container d-flex align-items-center justify-content-between text-white">
-                    <h5 className='p-1 m-0'>NOTÍCIAS DO COTIDIANO</h5>
-                    <p className='p-1 m-0  text-dark'>
+                    <h5 className='p-0 m-0'>NOTÍCIAS DO COTIDIANO</h5>
+                    <span className='p-0 m-0  text-dark'>
                         Handbank busca ser um banco na palma da mão e gerar valores
-                    </p>
+                    </span>
                     <div className='p-1 m-0 text-dark'>{dataHoje()}</div>
                 </div>
             </div>
